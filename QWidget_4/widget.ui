@@ -13,30 +13,43 @@
   <property name="windowTitle">
    <string>Widget</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>90</y>
-     <width>141</width>
-     <height>81</height>
+     <x>350</x>
+     <y>150</y>
+     <width>151</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>同意不？</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="pushButton_access">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>230</y>
-     <width>141</width>
-     <height>71</height>
+     <x>170</x>
+     <y>340</y>
+     <width>101</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>PushButton</string>
+    <string>同意</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_refuse">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>340</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>拒绝</string>
    </property>
   </widget>
  </widget>
